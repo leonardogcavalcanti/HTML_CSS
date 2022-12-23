@@ -1,0 +1,23 @@
+@charset "UTF-8"; /* Não é obrigatório, mas pode ser necessário se tiver alguma incompatibilidade com acentos da lingua portuguesa*/
+
+body {
+    background-color:rgba(17, 17, 18, 0.936);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(9, 9, 10);
+    background-color: rgb(240, 238, 250);
+    text-decoration: underline;
+
+}
+
+h2 {
+    color: rgb(150, 70, 148);
+}
+
+p{
+    text-align: justify;
+    color: rgb(246, 251, 255);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <!-- 
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children (filho)
+    -->
+    <style>
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color:red; /* Deixar os links vermelhos */
+            text-decoration: none; /* Tirar a decoração do texto*/
+            font-weight: bold; /* deixar escura bold*/
+            
+        }
+
+        a:visited{
+            color: cadetblue; /* Páginas visitadas ficar dessa cor*/
+
+        }
+
+        a:hover{
+            color:chartreuse; /* Quando passar o mouse ficar vende*/
+            text-decoration: underline; /*Quando passar o mouse aparecer sublinhado*/
+        }
+
+        a:active{
+            color:blueviolet /*Quando clicar fica da cor violeta*/
+        }
+
+        a::before{
+            content: '↪';
+        }
+
+        a::after{ /* a::after depois dos links*/
+            content:'↩'; /* mostrar o nome Link*/
+            text-decoration: none;
+            font-weight: normal; /*borda da fonte normal*/
+            color:darkorange;
+
+        }
+
+        .especial::before{
+            content: '↳';
+        }
+
+        .especial::after{
+            content:'↵';
+        }
+
+        .especial{
+            color: black;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando links</h1>
+
+    <ul> <!-- target="_blank" acessa a página em outra janela-->
+        <li><a href="https://github.com/leonardogcavalcanti" target="_blank" >Repositório do Git/Hub</a></li>
+        <li><a href="https://www.linkedin.com/in/leonardo-cavalcanti-65981aa3/" class="especial" target="_blank">Página do LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/channel/UC1lqnD4BYahjaq2nqcoPnsg" target="_blank">Canal do You tube</a></li>
+    </ul>
+    
+</body>
+</html>

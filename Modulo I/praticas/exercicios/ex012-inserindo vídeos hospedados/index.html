@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente </h1>
+    <p>Os vídeos estão hospedados no meu próprio servidor.</p>
+
+    <video width="500" height="400" poster="imagem/limoes-capa.png"  controls autoplay loop>
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <source src="videos/meu-video.m4v" type="video/m4v">
+        <source src="videos/meu-video.webm" type="video/webm">
+        <source src="videos/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo</p>
+        
+        
+    </video>
+
+    <video width="500" height="400" poster="imagem/imagem-treino.png" controls autoplay loop>
+        <source src="videos/pexels-cup-of-couple-8473762.mp4" type="video/mp4">
+        <source src="videos/pexels-cup-of-couple-8473762.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo</p>
+
+    </video>
+
+    <h1>Inserindo vídeos do You Tube</h1> <!-- Dessa forma não consume dados do servidor e sim do youtube-->
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/TF9I1GxNdJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    
+    
+</body>
+</html>

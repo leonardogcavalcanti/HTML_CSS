@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Fontes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /* arial, senao Helvetica, caso contrário sans-serif */
+
+            /* 
+            
+            Medidas absolutas:
+            cm, mm, in(podegadas), px(pixels), pt(ponto)m pc(paica) - recomendado usar o px
+
+
+            Medidas relativas:
+            em(tamanho da altura M da fonte), ex(tamano da alura x da fonte), rem(relativo ao root(que está no body), vm(view port - largura da tela), vh(altura da port - altura da tela), % - recomendado usar o em
+
+            16px é o tamanho padrão do navegador e 16px = 1em
+        
+            */
+        }
+
+        h1{
+            /*
+        
+            font-style:italic;
+            font-weight:bold;
+            font-size:2em;
+            font-family:Arial, Helvetica, sans-serif;
+
+            */
+
+            /*
+            shorthand font
+            font-style -> font-weight -> font-size -> font-family
+            */
+
+            font: italic bold 3em Arial, sans-serif;
+            
+        }
+
+        h2{
+            font: bold 2em sans-serif
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia omnis rem accusamus illo ab totam in cumque illum maiores assumenda? Nisi repellendus vero laudantium. Omnis tempora iste quibusdam laudantium aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nobis fugit temporibus commodi, sapiente quas consequuntur deleniti autem porro ipsum totam voluptatum eveniet molestias officiis delectus excepturi, provident doloribus quia.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae saepe neque eveniet corporis nobis placeat necessitatibus. Nesciunt, porro explicabo nihil, accusantium expedita corporis amet similique aspernatur eum eius provident?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut necessitatibus dolorem error ratione illum similique inventore incidunt, consequatur laborum eius nihil et suscipit, voluptatum natus nemo nulla eligendi ad repellat.</p>
+    
+</body>
+</html>

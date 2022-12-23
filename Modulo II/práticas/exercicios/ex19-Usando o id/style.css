@@ -1,0 +1,60 @@
+@charset "UTF-8"; /*Para não ter problemas com caracteres especiais*/
+ 
+
+/* 
+Em HTML é id = em CSS é # - Identnificar só pode um (Ex.:Se for usar no h1 só pode em um) padrão W3C
+Em HTML é class = em CSS é . - Classificar pode múltiplos (Ex.: Se for repetir no h1 usa o class)
+*/
+body{
+    background-color: #2fc21f70;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: #165C0F
+
+
+}
+
+h1#principal {
+    text-align: center;
+    background-color:  rgba(21, 91, 21, 0.822);
+    color:aliceblue
+}
+
+h2{
+    color: #269C19
+
+
+}
+
+.basico{
+    color: #269C19
+}
+
+.intermediario{
+    color: #9c9619
+
+
+}
+
+.avancado{
+    color: #9c2019
+
+
+}
+
+.destaqueBasico{
+    background-color:rgb(215, 224, 221)
+}
+
+.destaqueIntermediario{
+    background-color: rgba(41, 191, 191, 0.608);
+
+}
+
+.destaqueAvancado {
+    background-color: #9c198f67;
+
+}

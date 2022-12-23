@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <!-- Essa forma é recomendado quando vai para o próprio site -->
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/leonardogcavalcanti">repositório público no GitHub</a> e dessa forma talvez não voltará mais. &#x1F972;</p>
+
+    <!-- Quando vai para outro site é recomendado usar o target="_blank" e rel="external" -->
+    <p>Você pode acessar o meu <a href="https://github.com/leonardogcavalcanti" target="_blank" rel="external">repositório público no GitHub</a> e dessa forma provavelmente irá continuar no meu site. &#x1F601;</p>
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do meu site. Se você quiser, pode acessar também a minha <a href="pagina02.html" rel="next">segunda página</a>  </p> <!-- rel="next" serve para o mecanismo de busca saber que é para seguir a página seguinte -->
+
+    <p>Você também pode acessar a nossa <a href="noticias/pagina03.html" rel="next" target="self">terceira página</a></p> <!-- target="self" serve para dizer que é na própria página, porém o padrão já é esse -->
+
+    <h1>Links par download</h1>
+
+    <ul>
+        <li><a href="arquivos/10 - Ligações em toda parte.pdf" download="meulivro.pdf" type="application/pdf"> Baixar o livro em PDF </a></li>
+        <li><a href="arquivos/10 - Ligações em toda parte.pdf.zip" download="meulivro.zip" type="application/zip"> Livro compactado em ZIP</a></li>
+    </ul>
+    
+    
+</body>
+</html>
